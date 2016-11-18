@@ -55,7 +55,8 @@ class YTSearch():
 		select = raw_input('Elegite un vídeo: ')
 
 		watch = subprocess.Popen(
-		    [self.PLAYER, 'https://www.youtube.com' + links[int(select) - 1], '-'])
+		    [self.PLAYER, 'https://www.youtube.com' + links[int(select) - 1], '-']
+        )
 
 		print 'Cargando video, esperá un choca...'
 		

@@ -9,7 +9,7 @@ Just configure your favorite player and you're good to go.
 - youtube-dl
 - a media player
 
-### Media players
+### Tested media players
 - vlc, cvlc
 - mpv (mplayer, mplayer2)
 - castnow (`npm install -g castnow`)

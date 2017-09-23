@@ -35,7 +35,7 @@ class YTSearch():
 				player_options = sys.argv[2]
 
 		print "Buscando videos de \"%s\"..." % search
-		print "[Usando TOR]"
+		# print "[Usando TOR]"
 		search = re.sub(' ', '+', search)
 
 		opener = urllib2.build_opener()
